@@ -24,7 +24,7 @@ LIBX = -lmlx -framework OpenGL -framework AppKit
 all: $(NAME)
 
 $(NAME): $(OBJ) $(LIB)
-		@gcc -o $(NAME) $(OBJ) minilibx-linux/libmlx.a minilibx-linux/libmlx_Linux.a $(LIB) $(INC)  -lm -lbsd -lX11 -lXext
+		@gcc -o $(NAME) $(OBJ) minilibx/libmlx.a minilibx/libmlx_Linux.a $(LIB) $(INC)  -lm -lbsd -lX11 -lXext
 		@echo "\033[0;31mExecutable Cub3d \033[0m \033[0;32m [OK] \033[0m"
 
 $(LIB):
