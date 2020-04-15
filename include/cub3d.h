@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cub3d.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mifernan <mifernan@student.42.fr>          +#+  +:+       +#+        */
+/*   By: user42 <user42@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/10 11:52:43 by mifernan          #+#    #+#             */
-/*   Updated: 2020/03/04 14:52:38 by mifernan         ###   ########.fr       */
+/*   Updated: 2020/04/15 15:04:32 by user42           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 # include "../libft/libft.h"
 # include <math.h>
-# include "../minilibx-linux/mlx.h"
+# include "../minilibx/mlx.h"
 # include <stdio.h>
 # include <unistd.h>
 
